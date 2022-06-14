@@ -1,0 +1,14 @@
+#ticket .container{
+    max-width: 720px;
+}
+
+#ticket img{
+    width: 100%;
+    transition: 0.2s ease-in-out;
+}
+
+@media all and (max-width:767px){
+    #ticket img{
+        width: 70%;
+    }
+}
